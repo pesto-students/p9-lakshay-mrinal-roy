@@ -1,3 +1,7 @@
+html{
+    font-family: "Lato";
+    color: white;
+}
 body {
     margin: 0px;
     padding: 0px;
@@ -35,6 +39,10 @@ footer {
     height: 15%;
     bottom: 0%;
     /* left: 0%; */
-    background-color: #2b2a29;
+    background-color: #1979a9;
     color: white;
 }
+
+/* #header_container {
+    display: inline-block;
+} */
