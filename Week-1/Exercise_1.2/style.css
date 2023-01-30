@@ -10,12 +10,22 @@ body {
 
 header {
     position: fixed;
-    width: 100%;
+    width: 99%;
     height: 25%;
-    left: 0%;
+    left: 57px;
     top: 0%;
     background-color: #2b2a29;
-    border: red;
+}
+
+menu {
+    position: absolute;
+    width: 15px;
+    height: 90%;
+    background-color: rgb(204, 194, 194);
+    left: 0%;
+    top: 0px;
+    border: 2px solid rgb(204, 194, 194);
+    margin-top: 0%;
 }
 
 #header_container, #footer_container {
@@ -55,6 +65,7 @@ footer {
     /* color: red; */
 }
 
-/* #text_item1 {
-    color: red;
-} */
+#image2 {
+    width: 30%;
+    height: 30%;
+}
