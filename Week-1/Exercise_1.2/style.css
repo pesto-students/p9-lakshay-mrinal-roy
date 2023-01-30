@@ -12,12 +12,12 @@ header {
     position: fixed;
     width: 99%;
     height: 25%;
-    left: 57px;
+    left: 39px;
     top: 0%;
     background-color: #2b2a29;
 }
 
-menu {
+#menu {
     position: absolute;
     width: 15px;
     height: 90%;
@@ -26,6 +26,15 @@ menu {
     top: 0px;
     border: 2px solid rgb(204, 194, 194);
     margin-top: 0%;
+    align-items: center;
+    padding: 0px 10px;
+}
+
+i {
+    display: flex;
+    padding: 20px 0px;
+    margin:  20px 0px;
+    color: black;
 }
 
 #header_container, #footer_container {
