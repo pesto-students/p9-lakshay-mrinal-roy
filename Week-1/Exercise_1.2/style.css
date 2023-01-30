@@ -18,12 +18,16 @@ header {
     border: red;
 }
 
-#image {
+#header_container, #footer_container {
+    display: inline-flex;
+}
+
+#image1, #image2 {
     position: relative;
-    width: auto;
-    height: 80%;
-    top: 10%;
-    left: 1%;
+    width: 22%;
+    height: 22%;
+    top: 10px;
+    left: 2%;
 }
 
 main {
@@ -33,7 +37,6 @@ main {
 }
 
 footer {
-    
     position: fixed;
     width: 100%;
     height: 15%;
@@ -43,6 +46,15 @@ footer {
     color: white;
 }
 
-/* #header_container {
-    display: inline-block;
+#item1 {
+    /* display: inline; */
+    position: relative;
+    left: 10%;
+    font-size: 25px;
+    font-family: 'Lato', sans-serif;
+    /* color: red; */
+}
+
+/* #text_item1 {
+    color: red;
 } */
